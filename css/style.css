@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #24262b;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    width: 100%;
+    align-items: end;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+footer .container ul{
+    font-size: 16px;
+    color: white;
+}
+
+main {
+    background: url("https://i.pinimg.com/originals/09/f5/d7/09f5d7839c72a99ad5820cca7b2be4c0.jpg") no-repeat
+    center center;
+    background-size: cover;
+}
+
+header {
+    background-color: #23232e;
+    height: 10vh;
+    width: 100%;
+    padding: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoratiom: none;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.DadosArq {
+    display: flex;
+    height: 210vh;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    margin: 15px;
+    height: 170vh;
+    width: 70%;
+    background-color: #23232e;
+    align-items: start;
+    justify-content: start;
+    padding: 5vh;
+}
+
+#img_redonda {
+    margin: 50px;
+    border-radius: 50%;
+    height: 400px;
+    height: 400px;
+
+}
+
+.DescrPerfil {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+
+Iparte {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+Projetospgm {
+    background-size: cover;
+
+    display: grid;
+    height: 170vh;
+    width: 70%;
+
+    justify-content: center;
+    align-items: start;
+}
+
+.Projetospgm h1 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#csslogo {
+    justify-content: end;
+    align-items: end;
+    height: 15vh;
+    height: 15vh;
+}
+
+#htmllogo {
+    height: 20vh;
+    height: 20vh;
+}
+
+#pythonlogo {
+    height: 15vh;
+    height: 15vh;
+}
+
+#jslogo {
+    justify-content: end;
+    align-items: end;
+    height: 14vh;
+    height: 14vh;
+}
+
+.HeadLogo a{
+    margin: 15px;
+    display: inline-block;
+	height: 40px;
+	width: 400px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 15px 15px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+
+.titulo {
+    Color: #fff;
+    font-weight: 500;
+}
+
+.corpotex {
+    Color: #fff;
+}
+
+.maps{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+}

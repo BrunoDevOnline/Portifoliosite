@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #23232e;
+}
+
+header {
+    height: 5vh;
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoratiom: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 15px;
+    display: inline-block;
+	height: 40px;
+	width: 500px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 15px 15px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align: center;
+    font-family: system-ui,
+    -apple-system, Helvetica, Arial,
+    sans-serif;
+    background: #23232e;
+    height: 7vh;
+}
+
+main {
+    display: flex;
+    background: url("https://i.pinimg.com/originals/09/f5/d7/09f5d7839c72a99ad5820cca7b2be4c0.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 650vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 650vh;
+    background-color: ;
+    justify-content: center;
+    align-info: end;
+}
+
+.soi {
+    display: flex;
+    height: 100%;
+    width: 150vh;
+    gap: 50vh;
+    background-color: #23232e;
+    background-size: cover;
+    justify-content: around;
+    align-items: around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    margin: 5vh;
+    width: 100px;
+    height: 100px;
+}
+footer {
+    background-color: #23232e;
+}
